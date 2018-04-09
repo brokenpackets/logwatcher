@@ -10,7 +10,7 @@
 # Requirements:
 #  Needs DNS to resolve webhook destination endpoint
 #  Needs tcp reachability to destination endpoint IP
-#  Can be run from VRF or global table. example above uses VRF change to syntax below to run from global:
+#  Can be run from VRF or global table. example above uses VRF, change to syntax below to run from global:
 #  action bash python /mnt/flash/logscript.py
 ########
 
