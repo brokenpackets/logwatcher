@@ -14,12 +14,10 @@
 #  action bash python /mnt/flash/logscript.py
 ########
 
-import re, time, os, sys, Logging
+import re, time, sys, Logging
 from os import stat
-from jsonrpclib import Server
 from os.path import abspath
 from stat import ST_SIZE
-from optparse import OptionParser
 import webhookfunction
 import socket
 
