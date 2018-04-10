@@ -29,8 +29,8 @@ text = ''
 # What log file to watch
 file = "/var/log/messages"
 
-# What expression in the log to match on - needs work.
-expression = '(.*RIB:.*|.*OSPF:.*|.*BGP:.*)'
+# What expression in the log to match on - should match against any syslog level 0 - 4.
+expression = '.*? %s .*?\: .*?\-[0-4]\-' % username
 
 # Define Log
 Logging.logD( id="ANY_EVENT",
